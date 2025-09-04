@@ -1,0 +1,10 @@
+#!name= DNS Mapping
+#!desc=Last Updated: 2025-08-17T09:04:38.793Z
+
+[Host]
+dns.alidns.com = 223.5.5.5, 223.6.6.6, 2400:3200:baba::1, 2400:3200::1
+doh.pub = 120.53.53.53, 1.12.12.12
+RULE-SET:https://ruleset.skk.moe/Modules/Rules/sukka_local_dns_mapping/tencent.conf = server:https://doh.pub/dns-query
+RULE-SET:https://ruleset.skk.moe/Modules/Rules/sukka_local_dns_mapping/bytedance.conf = server:180.184.2.2
+RULE-SET:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/DouYin/DouYin.list = server:10.10.10.1
+cdn.jsdelivr.net = cdn.jsdelivr.net.cdn.cloudflare.net
