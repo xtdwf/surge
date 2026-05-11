@@ -12,46 +12,33 @@ use-local-host-item-for-proxy = true
 encrypted-dns-follow-outbound-mode = false
 
 [Host]
-# > Encrypted DNS
-dns.google = 8.8.8.8, 8.8.4.4, 2001:4860:4860::8888, 2001:4860:4860::8844 // https://dns.google/dns-query
-dns64.dns.google = 2001:4860:4860::6464, 2001:4860:4860::64 // https://dns64.dns.google/dns-query
-cloudflare-dns.com = 104.16.249.249, 104.16.248.249, 2606:4700::6810:f8f9, 2606:4700::6810:f9f9 // https://cloudflare-dns.com/dns-query
-1dot1dot1dot1.cloudflare-dns.com = 1.1.1.1, 1.0.0.1, 2606:4700:4700::1001, 2606:4700:4700::1111 // 1dot1dot1dot1.cloudflare-dns.com:853
-one.one.one.one = 1.1.1.1, 1.0.0.1, 2606:4700:4700::1001, 2606:4700:4700::1111  // one.one.one.one:853
-dns.alidns.com = 223.5.5.5, 223.6.6.6, 2400:3200:baba::1, 2400:3200::1 // https://dns.alidns.com/dns-query
-doh.pub = 1.12.12.12, 120.53.53.53 // https://doh.pub/dns-query
-dot.pub = 1.12.12.12, 120.53.53.53 // dot.pub:853
-doh.360.cn = 23.6.48.18, 112.65.69.15 // https://doh.360.cn/dns-query
-dot.360.cn = 101.198.198.198, 101.198.199.200, 101.198.192.33, 112.65.69.15 // dot.360.cn:853
-dns.twnic.tw = 101.101.101.101, 2001:de4::101, 2001:de4::102 // https://dns.twnic.tw/dns-query
-ordns.he.net = 74.82.42.42, 2001:470:20::2 // https://ordns.he.net/dns-query
 
 # > Alphabet
 # refer: https://developers.google.com/speed/public-dns/docs/doh?hl=zh-cn
-*.google = server:https://dns.google/dns-query // Google
-*.google.com = server:https://dns.google/dns-query // Google
-*.google.com.?? = server:https://dns.google/dns-query // Google
-*.goog = server:https://dns.google/dns-query // Google sites
-*.gstatic.com = server:https://dns.google/dns-query // Google 静态资源
-*.ggpht.com = server:https://dns.google/dns-query // Google Photos
-*.googleusercontent.com = server:https://dns.google/dns-query // Google 用户上传数据
-*.googleapis.com = server:https://dns.google/dns-query // Google APIs
-*.1e100.net = server:https://dns.google/dns-query // Google backbone
-*.youtube = server:https://dns.google/dns-query // Youtube sites
-*.youtube.com = server:https://dns.google/dns-query // Youtube
-*.ytimg.com = server:https://dns.google/dns-query // Youtube 图片
-*.googlevideo.com = server:https://dns.google/dns-query // Youtube Video
-*.gvt?.com = server:https://dns.google/dns-query // Google Video Thumbnails
-*.recaptcha.net = server:https://dns.google/dns-query // reCaptcha
-*.gmail.com = server:https://dns.google/dns-query // Gmail
-*.googlesource.com = server:https://dns.google/dns-query // Google Source
-*.googleadservices.com = server:https://dns.google/dns-query // Google AD Services
-*.doubleclick.net = server:https://dns.google/dns-query // DoubleClick
-*.adsense.com = server:https://dns.google/dns-query // AdSense
-*.adsensecustomsearchads.com = server:https://dns.google/dns-query // AdSense Custom Search Ads
-*.adsenseformobileapps.com = server:https://dns.google/dns-query // AdSense for mobile apps
-*.gle = server:https://dns.google/dns-query // Google shortened URLs
-goo.gl = server:https://dns.google/dns-query // Google URL Shortener
+*.google = server:https://8.8.8.8/dns-query // Google
+*.google.com = server:https://8.8.8.8/dns-query // Google
+*.google.com.?? = server:https://8.8.8.8/dns-query // Google
+*.goog = server:https://8.8.8.8/dns-query // Google sites
+*.gstatic.com = server:https://8.8.8.8/dns-query // Google 静态资源
+*.ggpht.com = server:https://8.8.8.8/dns-query // Google Photos
+*.googleusercontent.com = server:https://8.8.8.8/dns-query // Google 用户上传数据
+*.googleapis.com = server:https://8.8.8.8/dns-query // Google APIs
+*.1e100.net = server:https://8.8.8.8/dns-query // Google backbone
+*.youtube = server:https://8.8.8.8/dns-query // Youtube sites
+*.youtube.com = server:https://8.8.8.8/dns-query // Youtube
+*.ytimg.com = server:https://8.8.8.8/dns-query // Youtube 图片
+*.googlevideo.com = server:https://8.8.8.8/dns-query // Youtube Video
+*.gvt?.com = server:https://8.8.8.8/dns-query // Google Video Thumbnails
+*.recaptcha.net = server:https://8.8.8.8/dns-query // reCaptcha
+*.gmail.com = server:https://8.8.8.8/dns-query // Gmail
+*.googlesource.com = server:https://8.8.8.8/dns-query // Google Source
+*.googleadservices.com = server:https://8.8.8.8/dns-query // Google AD Services
+*.doubleclick.net = server:https://8.8.8.8/dns-query // DoubleClick
+*.adsense.com = server:https://8.8.8.8/dns-query // AdSense
+*.adsensecustomsearchads.com = server:https://8.8.8.8/dns-query // AdSense Custom Search Ads
+*.adsenseformobileapps.com = server:https://8.8.8.8/dns-query // AdSense for mobile apps
+*.gle = server:https://8.8.8.8/dns-query // Google shortened URLs
+goo.gl = server:https://8.8.8.8/dns-query // Google URL Shortener
 
 
 # > 阿里巴巴
