@@ -12,8 +12,6 @@ use-local-host-item-for-proxy = true
 encrypted-dns-follow-outbound-mode = false
 
 [Host]
-# > Encrypted DNS
-dns.google = 8.8.8.8, 8.8.4.4, 2001:4860:4860::8888, 2001:4860:4860::8844 // https://8.8.8.8/dns-query
 
 # > Alphabet
 # refer: https://developers.google.com/speed/public-dns/docs/doh?hl=zh-cn
